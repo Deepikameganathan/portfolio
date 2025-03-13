@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+header .contact {
+    font-size: 1rem;
+    color: #666;
+}
+
+header .linkedin a {
+    font-size: 1rem;
+    color: #0073b1;
+    text-decoration: none;
+}
+
+header .linkedin a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #2d2d2d;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+ul li strong {
+    font-weight: bold;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section:last-of-type {
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
